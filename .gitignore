@@ -1,0 +1,10 @@
+.codex
+__pycache__/
+*.pyc
+
+scratch/*
+!scratch/.gitkeep
+!scratch/README.md
+
+work/*/*/SCRATCH/*
+!work/*/*/SCRATCH/README.md

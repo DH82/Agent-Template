@@ -1,0 +1,64 @@
+version: "3"
+
+tasks:
+  tree:
+    desc: Show the main workspace structures
+    cmds:
+      - python3 scripts/workctl.py tree
+      - python3 scripts/expctl.py tree
+
+  guide:
+    desc: Show folder guidance. Example: task guide -- work
+    cmds:
+      - python3 scripts/workctl.py guide {{.CLI_ARGS}}
+
+  task:new:
+    desc: Create a new generic work item
+    cmds:
+      - python3 scripts/workctl.py init {{.CLI_ARGS}}
+
+  task:list:
+    desc: List generic work items
+    cmds:
+      - python3 scripts/workctl.py list {{.CLI_ARGS}}
+
+  task:move:
+    desc: Move a generic work item to another status
+    cmds:
+      - python3 scripts/workctl.py move {{.CLI_ARGS}}
+
+  task:validate:
+    desc: Validate generic work item structure
+    cmds:
+      - python3 scripts/workctl.py validate {{.CLI_ARGS}}
+
+  task:sync-index:
+    desc: Rewrite work/INDEX.md from current tasks
+    cmds:
+      - python3 scripts/workctl.py sync-index
+
+  experiment:new:
+    desc: Create a new experiment
+    cmds:
+      - python3 scripts/expctl.py init {{.CLI_ARGS}}
+
+  experiment:list:
+    desc: List experiments
+    cmds:
+      - python3 scripts/expctl.py list {{.CLI_ARGS}}
+
+  experiment:move:
+    desc: Move an experiment to another status
+    cmds:
+      - python3 scripts/expctl.py move {{.CLI_ARGS}}
+
+  experiment:validate:
+    desc: Validate experiment structure
+    cmds:
+      - python3 scripts/expctl.py validate {{.CLI_ARGS}}
+
+  validate:
+    desc: Validate both generic work and experiments
+    cmds:
+      - python3 scripts/workctl.py validate --all
+      - python3 scripts/expctl.py validate --all

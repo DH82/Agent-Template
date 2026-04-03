@@ -1,0 +1,5 @@
+# Log
+
+## {{DATE}}
+
+- Work started
