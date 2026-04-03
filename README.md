@@ -21,14 +21,14 @@ Use this template when:
 
 The main files are:
 
-- [PROJECT_FORM.md](/home/ldh/folder/PROJECT_FORM.md): the user-owned project brief
-- [PROJECT_STATE.md](/home/ldh/folder/PROJECT_STATE.md): the Codex-owned execution state
-- [RUN_PROMPT.md](/home/ldh/folder/RUN_PROMPT.md): the single repeated prompt for new sessions
+- [PROJECT_FORM.md](PROJECT_FORM.md): the user-owned project brief
+- [PROJECT_STATE.md](PROJECT_STATE.md): the Codex-owned execution state
+- [RUN_PROMPT.md](RUN_PROMPT.md): the single repeated prompt for new sessions
 
 Helpful supporting files:
 
-- [PROJECT_FORM_EXAMPLE.md](/home/ldh/folder/PROJECT_FORM_EXAMPLE.md): an example brief
-- [fill-project-form.md](/home/ldh/folder/docs/GUIDES/fill-project-form.md): how to fill the form well
+- [PROJECT_FORM_EXAMPLE.md](PROJECT_FORM_EXAMPLE.md): an example brief
+- [fill-project-form.md](docs/GUIDES/fill-project-form.md): how to fill the form well
 
 The responsibility split is:
 
@@ -38,7 +38,7 @@ The responsibility split is:
 
 ## Quick Start
 
-1. Fill [PROJECT_FORM.md](/home/ldh/folder/PROJECT_FORM.md).
+1. Fill [PROJECT_FORM.md](PROJECT_FORM.md).
 2. Be especially clear about:
    - what you want to build
    - what counts as the first usable version
@@ -46,17 +46,17 @@ The responsibility split is:
    - your technical preferences
    - how much autonomy Codex has
 3. Run Codex in this repository.
-4. Paste the prompt from [RUN_PROMPT.md](/home/ldh/folder/RUN_PROMPT.md).
+4. Paste the prompt from [RUN_PROMPT.md](RUN_PROMPT.md).
 5. Review the `work/`, `experiments/`, and `PROJECT_STATE.md` updates Codex makes.
-6. In later sessions, reuse the same [RUN_PROMPT.md](/home/ldh/folder/RUN_PROMPT.md) unless project direction changed.
+6. In later sessions, reuse the same [RUN_PROMPT.md](RUN_PROMPT.md) unless project direction changed.
 
-If a blank form feels hard to start from, read [PROJECT_FORM_EXAMPLE.md](/home/ldh/folder/PROJECT_FORM_EXAMPLE.md) first.
+If a blank form feels hard to start from, read [PROJECT_FORM_EXAMPLE.md](PROJECT_FORM_EXAMPLE.md) first.
 
 ## What You Should Edit
 
 You will usually edit:
 
-- [PROJECT_FORM.md](/home/ldh/folder/PROJECT_FORM.md)
+- [PROJECT_FORM.md](PROJECT_FORM.md)
 - selected result docs or reports when needed
 - any direction-setting docs if project goals change
 
@@ -72,7 +72,7 @@ Update `PROJECT_FORM.md` first when:
 
 Codex should usually update:
 
-- [PROJECT_STATE.md](/home/ldh/folder/PROJECT_STATE.md)
+- [PROJECT_STATE.md](PROJECT_STATE.md)
 - the active folder under `work/`
 - experiments under `experiments/` when needed
 - `docs/` and related `README.md` files when structure changes
@@ -102,11 +102,11 @@ This avoids re-explaining the project in each session.
 
 The main folders you will care about are:
 
-- [work/](/home/ldh/folder/work): implementation, writing, research, planning, cleanup
-- [experiments/](/home/ldh/folder/experiments): hypothesis, run, result, interpretation, publish flows
-- [docs/](/home/ldh/folder/docs): structure and workflow guidance
-- [templates/](/home/ldh/folder/templates): reusable file skeletons
-- [scripts/](/home/ldh/folder/scripts): CLIs for creating, moving, and validating work
+- [work/](work): implementation, writing, research, planning, cleanup
+- [experiments/](experiments): hypothesis, run, result, interpretation, publish flows
+- [docs/](docs): structure and workflow guidance
+- [templates/](templates): reusable file skeletons
+- [scripts/](scripts): CLIs for creating, moving, and validating work
 
 ### When to use `work/`
 
@@ -138,7 +138,7 @@ Typical cases:
 
 ## The Only Repeated Prompt
 
-The repeated session prompt lives in [RUN_PROMPT.md](/home/ldh/folder/RUN_PROMPT.md).
+The repeated session prompt lives in [RUN_PROMPT.md](RUN_PROMPT.md).
 
 The rule is simple:
 
@@ -171,11 +171,11 @@ You will usually get worse results from vague briefs like:
 
 These files mainly support the template itself:
 
-- [AGENTS.md](/home/ldh/folder/AGENTS.md)
-- [CLAUDE.md](/home/ldh/folder/CLAUDE.md)
-- [FILE_INDEX.md](/home/ldh/folder/docs/FILE_INDEX.md)
-- [WORKFLOW.md](/home/ldh/folder/docs/WORKFLOW.md)
-- [ARCHITECTURE.md](/home/ldh/folder/docs/ARCHITECTURE.md)
+- [AGENTS.md](AGENTS.md)
+- [CLAUDE.md](CLAUDE.md)
+- [FILE_INDEX.md](docs/FILE_INDEX.md)
+- [WORKFLOW.md](docs/WORKFLOW.md)
+- [ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
 They are useful reference files, but they are not the normal starting point for a template user.
 
@@ -205,9 +205,9 @@ python3 scripts/expctl.py init attention_ablation --title "Attention ablation" -
 
 Start here:
 
-1. Fill [PROJECT_FORM.md](/home/ldh/folder/PROJECT_FORM.md).
-2. Paste [RUN_PROMPT.md](/home/ldh/folder/RUN_PROMPT.md) into Codex.
+1. Fill [PROJECT_FORM.md](PROJECT_FORM.md).
+2. Paste [RUN_PROMPT.md](RUN_PROMPT.md) into Codex.
 
 ## License
 
-This template is licensed under the MIT License. See [LICENSE](/home/ldh/folder/LICENSE).
+This template is licensed under the MIT License. See [LICENSE](LICENSE).

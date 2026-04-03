@@ -7,7 +7,7 @@ How to use it:
 - Leave blanks only where Codex can safely infer the answer.
 - Write clearly and concretely.
 - If project direction changes, update this file before updating prompts.
-- If you get stuck, see [PROJECT_FORM_EXAMPLE.md](/home/ldh/folder/PROJECT_FORM_EXAMPLE.md) and [fill-project-form.md](/home/ldh/folder/docs/GUIDES/fill-project-form.md).
+- If you get stuck, see [PROJECT_FORM_EXAMPLE.md](PROJECT_FORM_EXAMPLE.md) and [fill-project-form.md](docs/GUIDES/fill-project-form.md).
 
 ## 1. Project Identity
 
